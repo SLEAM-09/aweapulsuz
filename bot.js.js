@@ -137,4 +137,4 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.login(process.env.AWEA.FIDAN);
+client.login(process.env.AWEA_FIDAN);
